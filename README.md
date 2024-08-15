@@ -5,8 +5,10 @@ Money Tracker is a money tracking application.
 
 This app is made from a youtube guide: https://www.youtube.com/watch?v=Bu6fAlltatA
 
-It converts data from a json file and shows it in a user-friendly format
-5 Last transactions / All transactions separated by format: ‘mm/yyyyyy’ / Most convenient - Line Chart 
+It converts data from a json file and shows it in a user-friendly format:
+- 5 Last transactions
+- All transactions separated by format: ‘mm/yyyyyy’
+- Most convenient - Line Chart 
 
 The application was created by using: SwiftUI / Foundation / Combine /  SwiftUIFontIcon / Collections / SwiftUICharts
 
