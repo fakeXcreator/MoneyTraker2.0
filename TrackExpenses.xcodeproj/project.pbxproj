@@ -126,17 +126,10 @@
 		EC6C4ED92C696FB200B05DC9 /* TrackExpenses */ = {
 			isa = PBXGroup;
 			children = (
-				EC6C4EDA2C696FB200B05DC9 /* TrackExpensesApp.swift */,
-				EC6C4EDC2C696FB200B05DC9 /* ContentView.swift */,
-				EC9D00D02C6E3A3000CE12FC /* TransactionList.swift */,
-				EC444C9A2C6B7003008C5ED9 /* RecentTransactionList.swift */,
-				EC444C932C6ACB72008C5ED9 /* TransactionRow.swift */,
-				EC444C982C6AD208008C5ED9 /* TransactionListViewModel.swift */,
-				EC6C4F042C6972CB00B05DC9 /* Extensions.swift */,
-				EC444C8F2C6AC906008C5ED9 /* TransactionModel.swift */,
-				EC6C4EDE2C696FB300B05DC9 /* Assets.xcassets */,
+				EC9D00E62C6E5EAC00CE12FC /* View */,
+				EC9D00E52C6E5EA600CE12FC /* ViewModel */,
+				EC9D00E42C6E5E9700CE12FC /* Model */,
 				EC6C4F062C69732600B05DC9 /* Supporting */,
-				EC6C4EE02C696FB300B05DC9 /* Preview Content */,
 			);
 			path = TrackExpenses;
 			sourceTree = "<group>";
@@ -170,8 +163,39 @@
 		EC6C4F062C69732600B05DC9 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
+				EC6C4EE02C696FB300B05DC9 /* Preview Content */,
+				EC6C4EDA2C696FB200B05DC9 /* TrackExpensesApp.swift */,
+				EC6C4EDE2C696FB300B05DC9 /* Assets.xcassets */,
+				EC6C4F042C6972CB00B05DC9 /* Extensions.swift */,
 			);
 			path = Supporting;
+			sourceTree = "<group>";
+		};
+		EC9D00E42C6E5E9700CE12FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC444C8F2C6AC906008C5ED9 /* TransactionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC9D00E52C6E5EA600CE12FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC444C982C6AD208008C5ED9 /* TransactionListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC9D00E62C6E5EAC00CE12FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC6C4EDC2C696FB200B05DC9 /* ContentView.swift */,
+				EC9D00D02C6E3A3000CE12FC /* TransactionList.swift */,
+				EC444C9A2C6B7003008C5ED9 /* RecentTransactionList.swift */,
+				EC444C932C6ACB72008C5ED9 /* TransactionRow.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
